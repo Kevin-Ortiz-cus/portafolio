@@ -1,0 +1,243 @@
+
+/*** Main estilos ***/
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+}
+
+strong {
+    color: #ff5a01fe;
+}
+
+.kevin-image {
+    width: 330px;
+    height: 355px;
+    margin-right: 2em;
+}
+
+.sub-title {
+    color: #ff5a01fe;
+}
+
+.text-information {
+    line-height: 27px;
+}
+
+.button-cv {
+    background-color: #ff5a01fe;
+    padding: 0.7em;
+    border-radius: 10px;
+}
+
+.container__cv--information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-media, .social-media__footer {
+    margin-left: 1em;
+    margin-top: 0.3em;
+}
+
+.social-media *:hover {
+    color: #ff5a01fe;
+}
+
+.button-cv:hover {
+    background-color: #d8520afe;
+}
+
+.cambiar-tema{
+    padding: 0.1em 0;
+    background-color: #ffffff;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.container-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    gap: 16px;
+}
+
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626ee;
+    border-radius: 8px;
+    padding: 0.5em 0.7em 0.5em 0.7em;
+}
+
+.proyecto > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.proyecto__informacion {
+    text-align: center;
+}
+
+.proyecto__informacion .proyecto__informacion--subtitle {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    color: #ff5a01fe;
+}
+
+.proyecto__informacion--text {
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+
+.button-card {
+    display: inline-block;
+    background-color: #b3b2b2fe;
+    color: #000000fe;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 6px;
+    margin-bottom: 0.4em;
+    cursor: pointer;
+}
+
+.button-card:hover {
+    background-color: #7c7c7cfe;
+}
+
+.proyecto__informacion > .button-card:first-of-type {
+    margin-right: 0.8em;
+}
+
+.container-habilidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    gap: 16px;
+}
+
+.habilidad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #262626ee;
+    border-radius: 8px;
+    padding: 0.5em 0.7em 0.5em 0.7em;
+}
+
+.habilidad > img{
+    width: 80px;
+    height: 80px;
+    margin-right: 1em;
+}
+
+.habilidad:hover {
+    opacity: 0.7;
+    transition: all ease 0.5s;
+}
+
+.habilidades-comentario {
+    margin-right: 0.5em;
+}
+
+.habilidades__comentario--subtitle {
+    color: #ff5a01fe;
+    margin-bottom: 4px;
+    margin-top: 15px;
+}
+
+.proyecto__informacion--descripcion {
+    margin-top: 7px;
+}
+
+.sobre-mi__informacion {
+    line-height: 27px;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contacto > * {
+    margin-bottom: 1em;
+}
+
+.enviar {
+    background-color: #ff5a01fe;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    border-radius: 8px;
+    margin: 0.5em auto ;
+    cursor: pointer;
+}
+
+.pie-pagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top: solid #ff5a01fe 6px;
+    margin-top: 2em;
+    padding: 0.8em 0 0.8em 0;
+}
+
+.footer-informacion::after {
+    content: 'Kevin Angel Ortiz Cusirramos';
+    color: #ff5a01fe;
+}
+
+.enviar:hover {
+    background-color: #d8520afe;
+}
+
+@media (max-width: 726px) {
+    
+    .kevin-image {
+        width: 300px;
+        margin: 0 0 1em 0;
+    }
+
+    .presentacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 636px) {
+
+    .pie-pagina {
+        flex-direction: column;
+    }
+
+    .social-media__footer {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .presentacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title, .sub-title,
+    .text-information {
+        text-align: center;
+    }
+
+    .container__cv--information {
+        justify-content: center;
+    }
+
+    .sobre-mi__informacion {
+        text-align: center;
+    }
+    
+}

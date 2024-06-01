@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "img": "assets/images/proyectos/web-compras.png",
+        "subtitle": "Web de compras",
+        "descripcion": "Web de compra de libros, con carrito de compras y registro de usuario",
+        "web": "#",
+        "github": "https://github.com/Kevin-Ortiz-cus/web-compras"
+    },
+    {
+        "id": 1,
+        "img": "assets/images/proyectos/calculadora.png",
+        "subtitle": "Calculadora",
+        "descripcion": "Calculadora básica que puede sumar, restar, multiplicar y dividir",
+        "web": "https://kevin-ortiz-cus.github.io/Calculadora/",
+        "github": "https://github.com/Kevin-Ortiz-cus/Calculadora"
+    },
+    {
+        "id": 2,
+        "img": "assets/images/proyectos/plantilla-web.png",
+        "subtitle": "Plantilla web",
+        "descripcion": "Plantilla de diseño web donde pongo en práctica lo aprendido con HTML Y CSS",
+        "web": "#",
+        "github": "#"
+    },
+    {
+        "id": 3,
+        "img": "assets/images/proyectos/ruleta-de-la-suerte.png",
+        "subtitle": "Ruleta de la suerte",
+        "descripcion": "Juego donde tienes que adivinar una frase antes que los demás jugadores",
+        "web": "https://kevin-ortiz-cus.github.io/Ruleta-de-la-suerte/",
+        "github": "https://github.com/Kevin-Ortiz-cus/Ruleta-de-la-suerte"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "img": "assets/images/logo-languajes/html.png",
+        "subtitle": "HTML5",
+        "descripcion": "Estructura de la pagina web"
+    },
+    {
+        "id": 1,
+        "img": "assets/images/logo-languajes/css.png",
+        "subtitle": "CSS3",
+        "descripcion": "Diseño de la pagina web"
+    },
+    {
+        "id": 2,
+        "img": "assets/images/logo-languajes/javascript.png",
+        "subtitle": "JavaScript",
+        "descripcion": "Funcionalidad de la pagina web"
+    },
+    {
+        "id": 3,
+        "img": "assets/images/logo-languajes/php.png",
+        "subtitle": "PHP",
+        "descripcion": "Logica de la pagina web"
+    },
+    {
+        "id": 4,
+        "img": "assets/images/logo-languajes/sql.png",
+        "subtitle": "SQL",
+        "descripcion": "Administra los datos"
+    },
+    {
+        "id": 5,
+        "img": "assets/images/logo-languajes/react.png",
+        "subtitle": "React",
+        "descripcion": "Framework de JavaScript"
+    },
+    {
+        "id": 6,
+        "img": "assets/images/logo-languajes/laravel.png",
+        "subtitle": "Laravel",
+        "descripcion": "Framework de PHP"
+    },
+    {
+        "id": 7,
+        "img": "assets/images/logo-languajes/bootstrap.png",
+        "subtitle": "Bootstrap",
+        "descripcion": "Framework de diseño web"
+    }
+]
